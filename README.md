@@ -24,8 +24,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
-![](./solutions/Desktop-solution.jpg) ![](./solutions/Mobile-solution.jpg)
+#### Desktop-view
+![](./solutions/Desktop-solution.jpg) 
+#### Mobile-view
+![](./solutions/Mobile-solution.jpg)
 
 These are the screenshots of the solutions of the challenge for Desktop and Mobile view.
 
