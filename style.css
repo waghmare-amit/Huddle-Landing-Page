@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft_magneta: hsl(300, 69%, 71%);
+}
+
+.whole-container {
+    background-color: var(--violet);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.huddle-logo {
+    width: 100%;
+    height: 10rem;
+    margin-left: 6rem;
+    margin-top: auto;
+    padding-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.huddle-logo img {
+    padding-top: 0;
+    margin-top: 0;
+    width: 19rem;
+    height: 6rem;
+}
+
+.illustration-with-details {
+    width: 90%;
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6rem;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.illustration-image {
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.description {
+    flex-direction: column;
+    height: 35rem;
+    width: 48rem;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 5rem;
+    color: white;
+    padding-right: 0;
+}
+
+.description .top-description h1 {
+    font-size: 4rem;
+    font-family: 'Open Sans';
+}
+
+.description .top-description h2 {
+    font-size: 3.8rem;
+    font-family: 'Open Sans';
+}
+
+.top-description {
+    margin-bottom: 3rem;
+}
+
+.huddle-description {
+    font-size: 1.52rem;
+}
+
+.register-button {
+    background-color: white;
+    margin-top: 3.5rem;
+    padding: 1.4rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99.9rem;
+    color: var(--violet);
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.register-button .text {
+    font-size: 1.52rem;
+}
+
+.register-button:hover {
+    background-color: var(--soft_magneta);
+    text-decoration: underline;
+    box-shadow: 0.8rem 0.7rem 1.5rem hsl(240, 2%, 12%);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease;
+
+}
+
+.register-button:hover .text {
+    color: white;
+    text-decoration: underline solid white;
+    transition: color 0.3s ease;
+}
+
+.footer-logos {
+    width: 20%;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 12rem;
+}
+
+.footer-logos .circle {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 0.2rem white;
+}
+
+.footer-logos img {
+    color: white;
+    width: 60%;
+}
+
+.facebook img {
+    fill: white;
+}
+
+.footer-container {
+    background-color: var(--violet);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 0.2rem white;
+    margin-top: auto;
+    bottom: 0;
+}
+
+.footer-container p {
+    color: var(--soft_magneta);
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: 'poppins';
+}
+
+.footer-container a {
+    color: white;
+}
+
+/* Below is the code for making the webpage responsive to mobile screen*/
